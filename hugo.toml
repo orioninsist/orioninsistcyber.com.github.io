@@ -1,18 +1,67 @@
 baseURL = "https://orioninsistcyber.com/"
 languageCode = "en-us"
 title = "OrionInsist Cyber"
+paginate = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
 
 [params]
+[params.homeInfoParams]
+Title = "Hi there 👋"
+Content = "Can be Info, links, about..."
+
+[[params.socialIcons]]
+name = "<platform>"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "<platform 2>"
+url = "<link2>"
+
 env = "production"
+title= "OrionInsist Cyber"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
 author = "Murat"
 description = "Cybersecurity, Linux, and Tech Blog"
 ShowReadingTime = true
 ShowShareButtons = true
 ShowToc = true
 TocOpen = true
+ShowPostNavLinks = true  # Önceki ve sonraki yazıya yönlendiren bağlantıları ekler
+ShowBreadCrumbs = true  # Sayfa içinde kategori izleme (breadcrumb) gösterir
+ShowCodeCopyButtons = false  # Kod bloklarının yanında kopyalama butonlarını devre dışı bırakır
+ShowWordCount = true  # Yazının toplam kelime sayısını gösterir
+ShowRssButtonInSectionTermList = true  # RSS butonunu ekler
+UseHugoToc = true  # Hugo’nun otomatik içindekiler tablosunu kullanır
+disableSpecial1stPost = false  # İlk yazıya özel farklı stil kullanılmaz
+disableScrollToTop = false  # Sayfanın üstüne çıkma butonunu gösterir
+comments = false  # Yorumları devre dışı bırakır
+hidemeta = false  # Yazı meta bilgilerini (tarih, yazar) gizlemez
+hideSummary = false  # Yazının özetini gizlemez
 googleAnalytics = "G-J530VWHL4Q"
 googleAnalyticsPartial = "partials/google_analytics.html"
 
+[params.assets]
+favicon = "<link / abs url>"  # Tarayıcı sekmesi için favicon
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
+
+
+[params.label]
+text = "OrionInsist Cyber"
+icon = "/orioninsist-32-32.png"
+iconHeight = 35
 
 [menu]
 [[menu.main]]
