@@ -7,9 +7,8 @@
 
 <head>
     {{- partial "head.html" . }}
-    {{ partial "gtm_head.html" . }}
+
     {{ partial "google_tag.html" . }}
-    {{ partial "google_analytics.html" . }}
 
 
 </head>
@@ -28,7 +27,6 @@
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 
-{{ partial "gtm_body.html" . }}
 
 </body>
 
