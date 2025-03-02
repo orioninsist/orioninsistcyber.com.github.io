@@ -1,7 +1,6 @@
 baseURL = "https://orioninsistcyber.com/"
 languageCode = "en-us"
 title = "OrionInsist Cyber"
-theme = ["PaperMod"]
 
 [params]
 author = "Murat"
