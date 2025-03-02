@@ -10,7 +10,7 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowToc = true
 TocOpen = true
-googleAnalytics = "/partials/google_tag.html"
+googleAnalytics = "G-J530VWHL4Q"
 
 
 [menu]
