@@ -88,5 +88,13 @@ name = "Contact"
 url = "/contact/"
 weight = 4
 
+[services]
+[services.googleAnalytics]
+id = "G-J530VWHL4Q"
+
+[privacy]
+[privacy.googleAnalytics]
+disable = false
+respectDoNotTrack = true
 
 
