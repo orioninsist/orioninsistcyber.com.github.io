@@ -48,8 +48,7 @@ disableScrollToTop = false  # Sayfanın üstüne çıkma butonunu gösterir
 comments = false  # Yorumları devre dışı bırakır
 hidemeta = false  # Yazı meta bilgilerini (tarih, yazar) gizlemez
 hideSummary = false  # Yazının özetini gizlemez
-googleAnalytics = "G-J530VWHL4Q"
-googleAnalyticsPartial = "partials/google_analytics.html"
+
 
 [params.assets]
 favicon = "<link / abs url>"  # Tarayıcı sekmesi için favicon
