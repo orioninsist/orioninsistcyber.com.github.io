@@ -10,6 +10,7 @@ ShowShareButtons = true
 ShowToc = true
 TocOpen = true
 googleAnalytics = "G-J530VWHL4Q"
+googleAnalyticsPartial = "partials/google_analytics.html"
 
 
 [menu]
