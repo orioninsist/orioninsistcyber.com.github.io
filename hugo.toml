@@ -10,6 +10,8 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowToc = true
 TocOpen = true
+googleAnalytics = "G-J530VWHL4Q"
+
 
 [menu]
 [[menu.main]]
@@ -36,7 +38,5 @@ name = "Contact"
 url = "/contact/"
 weight = 4
 
-[params]
-googleAnalytics = "G-J530VWHL4Q"
 
 
