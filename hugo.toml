@@ -36,9 +36,5 @@ name = "Contact"
 url = "/contact/"
 weight = 4
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 5
+
 
