@@ -1,4 +1,17 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /drafts/
+Disallow: /private/
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /search
+Disallow: /*?*
+Disallow: /*.php$
+Disallow: /*.cgi$
+Disallow: /*.pl$
+Disallow: /*.asp$
+Disallow: /*.aspx$
+
+Allow: /
 
 Sitemap: https://orioninsistcyber.com/sitemap.xml
