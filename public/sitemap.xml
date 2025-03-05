@@ -2,6 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/blog/2025/03/cybersecurity-beginners-guide/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>//localhost:1313/categories/beginner-guide/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/cybersecurity/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/data-protection/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/hacking/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/infosec/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/online-security/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/contact/</loc>
     <lastmod>2023-08-12T10:37:53+03:00</lastmod>
   </url><url>
@@ -14,12 +52,6 @@
     <loc>//localhost:1313/tags/orioninsist/</loc>
     <lastmod>2023-08-12T10:37:53+03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2023-08-12T10:37:53+03:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2023-08-12T10:37:53+03:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2023-08-12T10:37:48+03:00</lastmod>
   </url><url>
@@ -27,8 +59,6 @@
     <lastmod>2023-08-12T10:37:48+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/privacy-policy/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/g-j530vwhl4q/</loc>
   </url><url>
