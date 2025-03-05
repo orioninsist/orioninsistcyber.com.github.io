@@ -116,3 +116,34 @@ enableRobotsTXT = true
   disableXML = true
   minifyOutput = true
 
+env = "production"
+
+[fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+
+
+[outputFormats.RSS]
+  name = "RSS"
+  mediaType = "application/rss+xml"
+  baseName = "index"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[privacy]
+  drafts = false
+  future = false
+  googleAnalyticsAnonymizeIP = true
+
+privacyPolicy = "/privacy-policy.html"
