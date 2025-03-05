@@ -99,6 +99,9 @@ googleAnalytics = "G-J530VWHL4Q"
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 3
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 
 
@@ -134,12 +137,7 @@ env = "production"
   mediaType = "application/rss+xml"
   baseName = "index"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    noClasses = false
+
 
 [privacy]
   drafts = false
