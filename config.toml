@@ -1,3 +1,91 @@
-baseURL = 'https://example.org/'
+baseURL = 'orioninsistcyber.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'orioninsist cyber security'
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  disableSearch = false
+ defaultTheme = "light" # Options: "auto", "light", "dark"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 6
+
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 7
+
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+
+googleAnalytics = "G-J530VWHL4Q"
+
+
+
+[params.social]
+  twitter = "InsistOrion"
+  github = "orioninsist"
+  linkedin = "company/orioninsist"
+  instagram = "insistorion"
+
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "monokai"
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
