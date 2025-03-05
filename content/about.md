@@ -11,7 +11,7 @@ language = "English"
 slug = "about"
 
 [cover]
-    image = "/about/muratkurkoglu-2.png"
+    image = "/about/muhammetmuratkurkoglu.png"
     alt = "orioninsist about image"
 +++
 
