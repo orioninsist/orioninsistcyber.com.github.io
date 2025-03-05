@@ -20,7 +20,10 @@ categories = ["Cybersecurity", "Beginner Guide"]
 tags = ["Cybersecurity", "Hacking", "Online Security", "Infosec", "Data Protection"]
 aliases = ["/cybersecurity-basics/", "/cybersecurity-guide/"]
 weight = 10
-sitemap = { priority = 0.8, changefreq = "weekly" }
+[sitemap]
+  priority = 0.8
+  changefreq = "weekly"
+
 outputs = ["HTML", "RSS", "JSON"]
 isCJKLanguage = false
 reading_time = "7"
