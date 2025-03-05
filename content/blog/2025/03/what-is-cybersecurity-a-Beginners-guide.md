@@ -27,12 +27,16 @@ word_count = "1500"
 headless = false
 unlisted = false
 
+[sitemap]
+  priority = 0.8
+  changefreq = "weekly"
+
 [params]
   author = "Murat"
   author_social = "https://medium.com/@orioninsist"
-  featured_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.jpg"
-  thumbnail = "https://orioninsistcyber.com/images/cybersecurity-guide-thumbnail.jpg"
-  cover_image = "https://orioninsistcyber.com/images/cybersecurity-guide-cover.jpg"
+  featured_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.webp"
+  thumbnail = "https://orioninsistcyber.com/images/cybersecurity-guide-thumbnail.webp"
+  cover_image = "https://orioninsistcyber.com/images/cybersecurity-guide-cover.webp"
   video = "https://www.youtube.com/watch?v=example"
   table_of_contents = true
   allow_comments = true
@@ -44,16 +48,11 @@ unlisted = false
 
 [menus]
   main = { weight = 5, identifier = "cybersecurity-guide", name = "Cybersecurity Guide", url = "/blog/2025/03/cybersecurity-beginners-guide/" }
-}
 
 [resources]
   [resources.featured]
-    src = "static/blog/2025/03/cybersecurity-guide-featured.webp"
+    src = "images/cybersecurity-guide-featured.webp"
     title = "Cybersecurity Guide Cover"
-
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.8
 
 [seo]
   schema_type = "Article"
@@ -70,7 +69,7 @@ unlisted = false
 [openGraph]
   og_title = "Cybersecurity for Beginners: What You Need to Know in 2025"
   og_description = "A beginner-friendly guide to understanding cybersecurity in 2025. Learn key concepts, threats, and best practices to stay secure online."
-  og_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.jpg"
+  og_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.webp"
   og_url = "https://orioninsistcyber.com/blog/2025/03/cybersecurity-beginners-guide/"
   og_type = "article"
   og_site_name = "Orion Insist Cyber"
@@ -82,8 +81,9 @@ unlisted = false
   twitter_creator = "@orioninsist"
   twitter_title = "Cybersecurity for Beginners: What You Need to Know in 2025"
   twitter_description = "A beginner-friendly guide to understanding cybersecurity in 2025. Learn key concepts, threats, and best practices to stay secure online."
-  twitter_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.jpg"
+  twitter_image = "https://orioninsistcyber.com/images/cybersecurity-guide-featured.webp"
 +++
+
 
 
 
