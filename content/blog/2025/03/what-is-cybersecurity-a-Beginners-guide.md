@@ -43,7 +43,8 @@ unlisted = false
   publishResources = "true"
 
 [menus]
-  main = { weight = 5, identifier = "cybersecurity", name = "Cybersecurity Guide", url = "/blog/2025/03/cybersecurity-beginners-guide/" }
+  main = { weight = 5, identifier = "cybersecurity-guide", name = "Cybersecurity Guide", url = "/blog/2025/03/cybersecurity-beginners-guide/" }
+}
 
 [resources]
   [resources.featured]
