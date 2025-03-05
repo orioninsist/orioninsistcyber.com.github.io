@@ -14,7 +14,13 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
   disableSearch = false
- defaultTheme = "light" # Options: "auto", "light", "dark"
+  defaultTheme = "light" # Options: "auto", "light", "dark"
+  title = "orioninsist Cyber Security"
+  description = "Cybersecurity insights, tutorials, and documentation on ethical hacking, penetration testing, and digital security."
+  keywords = ["cybersecurity", "ethical hacking", "penetration testing", "security", "infosec", "hugo", "papermod", "blog"]
+  author = "Murat Kurkoğlu"
+  images = ["static/orioninsist-logo-5.png"]
+
 
 [menu]
   [[menu.main]]
@@ -80,6 +86,10 @@ googleAnalytics = "G-J530VWHL4Q"
   linkedin = "company/orioninsist"
   instagram = "insistorion"
 
+[params.opengraph]
+  enable = true
+  twitterCards = true
+
 
 [markup]
   [markup.highlight]
@@ -89,3 +99,20 @@ googleAnalytics = "G-J530VWHL4Q"
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 3
+
+
+
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "SITEMAP"]
+
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
