@@ -1,13 +1,14 @@
 +++
-date = '{{ .Date }}'
-draft = false
 title = 'The Essential Guide to Cybersecurity: Threats and Protection Strategies'
 linkTitle = "Cybersecurity Guide"
 description = "A comprehensive guide to understanding cybersecurity threats and the best defense strategies to protect your digital assets."
 summary = "Explore the most common cybersecurity threats and learn essential defense strategies to secure your digital world."
-publishDate = "{{ .Date }}"
-lastmod = "{{ .Date }}"
-expiryDate = ""
+date = '2025-03-06T00:00:00+03:00'
+author= "Murat Kurkoglu"
+draft = false
+publishDate = "2025-03-06T00:00:00+03:00"
+lastmod = "2025-03-06T00:00:00+03:00"
+expiryDate = "2027-03-06T00:00:00+03:00"
 layout = "article"
 type = "blog"
 markup = "markdown"
