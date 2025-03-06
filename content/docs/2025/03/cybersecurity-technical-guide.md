@@ -81,8 +81,6 @@ unlisted = false
   twitter_image = "https://orioninsistcyber.com/images/cybersecurity-docs-featured.webp"
 +++
 
-**Cybersecurity Documentation: A Technical Guide**
-
 ## **1. Introduction**
 Cybersecurity is the practice of protecting systems, networks, and data from cyber threats. This documentation provides a structured and technical overview of key cybersecurity concepts, tools, and best practices.
 
