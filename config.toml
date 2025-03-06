@@ -6,142 +6,139 @@ theme = "PaperMod"
 enableRobotsTXT = true
 
 [params]
-  ShowReadingTime = true
-  ShowToc = true
-  TocOpen = false
-  ShowBreadCrumbs = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  disableSearch = false
-  defaultTheme = "light" # Options: "auto", "light", "dark"
-  title = "orioninsist Cyber Security"
-  description = "Cybersecurity insights, tutorials, and documentation on ethical hacking, penetration testing, and digital security."
-  keywords = ["cybersecurity", "ethical hacking", "penetration testing", "security", "infosec", "hugo", "papermod", "blog"]
-  author = "Murat Kurkoğlu"
-  images = ["static/orioninsist-logo-5.png"]
+ShowReadingTime = true
+ShowToc = true
+TocOpen = false
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+disableSearch = false
+defaultTheme = "light" # Options: "auto", "light", "dark"
+title = "orioninsist Cyber Security"
+description = "Cybersecurity insights, tutorials, and documentation on ethical hacking, penetration testing, and digital security."
+keywords = [
+    "cybersecurity",
+    "ethical hacking",
+    "penetration testing",
+    "security",
+    "infosec",
+    "hugo",
+    "papermod",
+    "blog",
+]
+author = "Murat Kurkoğlu"
+images = ["static/orioninsist-logo-5.png"]
 
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    url = "/docs/"
-    weight = 3
+[[menu.main]]
+identifier = "docs"
+name = "Docs"
+url = "/docs/"
+weight = 3
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 4
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
-
-
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 6
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 5
 
 
-  [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 7
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 6
 
 
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 7
 
 
 googleAnalytics = "G-J530VWHL4Q"
 
 
-
 [params.social]
-  twitter = "InsistOrion"
-  github = "orioninsist"
-  linkedin = "company/orioninsist"
-  instagram = "insistorion"
+twitter = "InsistOrion"
+github = "orioninsist"
+linkedin = "company/orioninsist"
+instagram = "insistorion"
 
 [params.opengraph]
-  enable = true
-  twitterCards = true
+enable = true
+twitterCards = true
 
 
 [markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    style = "monokai"
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 3
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+style = "monokai"
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 3
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 
 enableRobotsTXT = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "SITEMAP"]
+home = ["HTML", "RSS", "JSON", "SITEMAP"]
 
 
 [permalinks]
-  blog = "/blog/:slug/"
+blog = "/blog/:slug/"
 
 
 [minify]
-  disableXML = true
-  minifyOutput = true
+disableXML = true
+minifyOutput = true
 
 env = "production"
 
 [fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = ["title", "permalink", "summary", "content"]
-
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
 
 
 [outputFormats.RSS]
-  name = "RSS"
-  mediaType = "application/rss+xml"
-  baseName = "index"
-
+name = "RSS"
+mediaType = "application/rss+xml"
+baseName = "index"
 
 
 [privacy]
-  drafts = false
-  future = false
-  googleAnalyticsAnonymizeIP = true
+drafts = false
+future = false
+googleAnalyticsAnonymizeIP = true
 
 privacyPolicy = "/privacy-policy.html"
