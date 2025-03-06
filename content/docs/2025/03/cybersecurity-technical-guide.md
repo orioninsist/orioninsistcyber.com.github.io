@@ -13,8 +13,8 @@ layout = "docs"
 type = "docs"
 markup = "markdown"
 slug = "{{ .File.ContentBaseName }}"
-url = "/docs/2025/03/{{ .File.ContentBaseName }}/"
-canonical = "https://orioninsistcyber.com/docs/2025/03/{{ .File.ContentBaseName }}/"
+url = "/docs/2025/03/{{ slug }}/"
+canonical = "https://orioninsistcyber.com/docs/2025/03/{{ slug }}/"
 robots = "index, follow"
 keywords = ["cybersecurity", "documentation", "infosec", "security tools", "network security"]
 categories = ["Cybersecurity", "Technical Guide"]
@@ -61,13 +61,13 @@ unlisted = false
   schema_publisher_logo = "https://orioninsistcyber.com/images/logo.png"
   schema_date_published = "{{ .Date }}"
   schema_date_modified = "{{ .Date }}"
-  schema_main_entity_of_page = "https://orioninsistcyber.com/docs/2025/03/{{ .File.ContentBaseName }}/"
+  schema_main_entity_of_page = "https://orioninsistcyber.com/docs/2025/03/{{ slug }}/"
 
 [openGraph]
   og_title = "Cybersecurity Documentation: A Technical Guide"
   og_description = "A structured and technical overview of key cybersecurity concepts, tools, and best practices."
   og_image = "https://orioninsistcyber.com/images/cybersecurity-docs-featured.webp"
-  og_url = "https://orioninsistcyber.com/docs/2025/03/{{ .File.ContentBaseName }}/"
+  og_url = "https://orioninsistcyber.com/docs/2025/03/{{ slug }}/"
   og_type = "article"
   og_site_name = "Orion Insist Cyber"
   og_locale = "en_US"
@@ -80,6 +80,7 @@ unlisted = false
   twitter_description = "A structured and technical overview of key cybersecurity concepts, tools, and best practices."
   twitter_image = "https://orioninsistcyber.com/images/cybersecurity-docs-featured.webp"
 +++
+
 
 ## **1. Introduction**
 Cybersecurity is the practice of protecting systems, networks, and data from cyber threats. This documentation provides a structured and technical overview of key cybersecurity concepts, tools, and best practices.
