@@ -114,8 +114,11 @@ unsafe = true
 
 enableRobotsTXT = true
 
+
 [outputs]
 home = ["HTML", "RSS", "JSON", "SITEMAP"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
 
 
 [permalinks]

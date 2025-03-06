@@ -2,29 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/blog/2025/03/cybersecurity-fundamentals/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url><url>
     <loc>//localhost:1313/blog/2025/03/cybersecurity-beginners-guide/</loc>
     <lastmod>2025-03-06T00:39:32+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>//localhost:1313/docs/2025/03/%7B%7B%20.File.ContentBaseName%20%7D%7D/</loc>
+    <loc>//localhost:1313/blog/2025/03/cybersecurity-documentation/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>//localhost:1313/categories/beginner-guide/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+    <loc>//localhost:1313/blog/cybersecurity-guide/</loc>
+    <lastmod>2025-03-06T00:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/cybersecurity/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/defense-strategies/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/malware/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/online-security/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/phishing/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/security-basics/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/threat-mitigation/</loc>
+    <lastmod>2025-03-06T07:46:19+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/beginner-guide/</loc>
     <lastmod>2025-03-06T00:39:32+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/data-protection/</loc>
@@ -36,16 +70,10 @@
     <loc>//localhost:1313/tags/infosec/</loc>
     <lastmod>2025-03-06T00:39:32+03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/online-security/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-03-06T00:39:32+03:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/best-practices/</loc>
+    <lastmod>2025-03-06T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/data-security/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/</loc>
@@ -54,13 +82,19 @@
     <loc>//localhost:1313/tags/encryption/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/malware/</loc>
+    <loc>//localhost:1313/tags/protection/</loc>
+    <lastmod>2025-03-06T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/security-strategies/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/security-tools/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/technical-guide/</loc>
+    <lastmod>2025-03-06T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/threats/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
@@ -83,10 +117,8 @@
   </url><url>
     <loc>//localhost:1313/privacy-policy/</loc>
   </url><url>
-    <loc>//localhost:1313/g-j530vwhl4q/</loc>
+    <loc>//localhost:1313/archives/</loc>
   </url><url>
     <loc>//localhost:1313/search/</loc>
-  </url><url>
-    <loc>//localhost:1313/series/</loc>
   </url>
 </urlset>
