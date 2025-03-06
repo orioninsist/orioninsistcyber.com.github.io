@@ -11,7 +11,7 @@ language = "English"
 slug = "contact"
 
 [cover]
-    image = "/contact/contact.png"
+    image = "/contact/contact.webp"
     alt = "orioninsist contact image"
 +++
 
