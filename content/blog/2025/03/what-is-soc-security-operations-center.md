@@ -26,7 +26,9 @@ reading_time = "5 min"
 word_count = "1200"
 headless = false
 unlisted = false
-
+[cover]
+    image = "/blog/2025/03/what-is-soc-security-operations-center.webp"
+    alt = "A Security Operations Center (SOC) actively monitoring cyber threats and network security"
 [sitemap]
   priority = 0.8
   changefreq = "weekly"
@@ -34,7 +36,7 @@ unlisted = false
 [params]
   author = "Murat Kurkoglu"
   author_social = "https://medium.com/@orioninsist"
-  featured_image = "https://orioninsistcyber.com/images/soc_cover.png"
+  featured_image = "https://orioninsistcyber.com/blog/2025/03/what-is-soc-security-operations-center.webp"
   thumbnail = "https://orioninsistcyber.com/images/soc_thumbnail.png"
   cover_image = "https://orioninsistcyber.com/images/soc_cover.png"
   video = ""
@@ -79,6 +81,9 @@ unlisted = false
   twitter_title = "What is SOC? Security Operations Center (SOC) Explained"
   twitter_description = "Discover the core concepts of SOC (Security Operations Center) and its importance in cybersecurity."
   twitter_image = "https://orioninsistcyber.com/images/soc_twitter.png"
+
+
+
 +++
 
 # What is SOC (Security Operations Center)?
