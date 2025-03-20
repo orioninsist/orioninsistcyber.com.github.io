@@ -6,7 +6,6 @@ summary = "Discover the fundamentals of cybersecurity, essential tools, and the 
 date = "2025-03-06T00:39:32+03:00"
 publishDate = "2025-03-06T00:39:32+03:00"
 lastmod = "2025-03-06T00:39:32+03:00"
-expiryDate = "2027-03-06T00:00:00+03:00"
 draft = false
 layout = "article"
 type = "blog"
