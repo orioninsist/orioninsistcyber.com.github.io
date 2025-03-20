@@ -7,12 +7,11 @@ summary = "An introduction to SOC (Security Operations Center), its structure, r
 date = "2025-03-19T12:00:00+03:00"
 publishDate = "2025-03-19T12:00:00+03:00"
 lastmod = "2025-03-19T12:00:00+03:00"
-expiryDate = ""
 layout = "article"
 type = "blog"
 markup = "markdown"
 slug = "what-is-soc-security-operations-center"
-url = "/blog/2025/03/what-is-soc-security-operations-center"
+url = "/blog/2025/03/what-is-soc-security-operations-center/"
 canonical = "https://orioninsistcyber.com/blog/what-is-soc-security-operations-center"
 robots = "index, follow"
 [cover]
