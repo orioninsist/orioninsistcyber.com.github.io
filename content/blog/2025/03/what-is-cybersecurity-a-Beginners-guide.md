@@ -19,7 +19,7 @@ keywords = ["cybersecurity", "beginner's guide", "information security", "cyber 
 categories = ["Cybersecurity", "Beginner Guide"]
 tags = ["Cybersecurity", "Hacking", "Online Security", "Infosec", "Data Protection"]
 aliases = ["/cybersecurity-basics/", "/cybersecurity-guide/"]
-weight = 10
+weight = 2
 outputs = ["HTML", "RSS", "JSON"]
 isCJKLanguage = false
 reading_time = "7"
@@ -143,4 +143,3 @@ Cybersecurity is a continuously evolving field that requires constant learning a
 ---
 
 This article provides a foundational understanding of cybersecurity for beginners. Next, we will create a structured documentation version for technical reference.
-

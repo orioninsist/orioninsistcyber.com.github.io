@@ -1,40 +1,42 @@
 +++
-date = "2025-03-19T21:44:05+03:00"
 draft = false
 title = "What is SOC? Security Operations Center (SOC) Explained"
 linkTitle = "What is SOC?"
 description = "What is SOC (Security Operations Center), how does it work, and why is it important? Essential knowledge for aspiring SOC analysts."
 summary = "An introduction to SOC (Security Operations Center), its structure, responsibilities, and why it is essential for cybersecurity."
-publishDate = "2025-03-19T21:44:05+03:00"
-lastmod = "2025-03-19T21:44:05+03:00"
-expiryDate = "None"
+date = "2025-03-19T12:00:00+03:00"
+publishDate = "2025-03-19T12:00:00+03:00"
+lastmod = "2025-03-19T12:00:00+03:00"
+expiryDate = ""
 layout = "article"
 type = "blog"
 markup = "markdown"
 slug = "what-is-soc-security-operations-center"
-url = "/blog/what-is-soc-security-operations-center"
+url = "/blog/2025/03/what-is-soc-security-operations-center"
 canonical = "https://orioninsistcyber.com/blog/what-is-soc-security-operations-center"
 robots = "index, follow"
+[cover]
+ image = "/blog/2025/03/what-is-soc-security-operations-center.webp"
+ alt = "A Security Operations Center (SOC) actively monitoring cyber threats and network security"
 keywords = ["SOC Analyst", "Cybersecurity", "Security Operations"]
 categories = ["Cybersecurity", "SOC"]
 tags = ["SOC", "cybersecurity", "security operations"]
 aliases = ["/soc-introduction"]
-weight = 10
+weight = 1
 outputs = ["HTML", "RSS", "JSON"]
 isCJKLanguage = false
 reading_time = "5 min"
 word_count = "1200"
 headless = false
 unlisted = false
-[cover]
-    image = "/blog/2025/03/what-is-soc-security-operations-center.webp"
-    alt = "A Security Operations Center (SOC) actively monitoring cyber threats and network security"
 [sitemap]
   priority = 0.8
   changefreq = "weekly"
 
+
+
+
 [params]
-  author = "Murat Kurkoglu"
   author_social = "https://medium.com/@orioninsist"
   featured_image = "https://orioninsistcyber.com/blog/2025/03/what-is-soc-security-operations-center.webp"
   thumbnail = "https://orioninsistcyber.com/images/soc_thumbnail.png"
@@ -57,7 +59,7 @@ unlisted = false
   schema_type = "Article"
   schema_context = "https://schema.org"
   schema_article_type = "https://schema.org/Article"
-  schema_author_name = "Murat"
+  schema_author_name = "Murat Kurkoglu"
   schema_author_url = "https://orioninsistcyber.com/about"
   schema_publisher = "Orion Insist Cyber"
   schema_publisher_logo = "https://orioninsistcyber.com/images/logo.png"
