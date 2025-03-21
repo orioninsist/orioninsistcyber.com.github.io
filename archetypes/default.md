@@ -1,11 +1,10 @@
 +++
 date = '{{ .Date }}'
-draft = true
+draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 linkTitle = ""
 description = ""
 summary = ""
-date = "{{ .Date }}"
 publishDate = "{{ .Date }}"
 lastmod = "{{ .Date }}"
 expiryDate = ""
@@ -41,6 +40,7 @@ unlisted = false
   video = ""
   table_of_contents = true
   allow_comments = true
+  archivetypes = ["docs", "images", "video"] # Arşiv türleri eklendi
 
 [build]
   render = "true"
