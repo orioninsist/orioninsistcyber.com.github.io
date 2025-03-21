@@ -82,34 +82,53 @@ og_url = "https://orioninsistcyber.com/blog/2025/03/what-is-a-soc-role-and-respo
   twitter_image = "https://orioninsistcyber.com/images/soc-analyst-intro.jpg"
 +++
 
-1. What is a Security Operations Center (SOC)?
-A Security Operations Center (SOC) is a centralized unit that monitors, detects, and responds to cybersecurity threats 24/7.
+# What is a SOC? The Role and Responsibilities of a SOC Analyst
 
-Key Objectives of a SOC
-Detect and analyze cyber threats.
-Investigate security incidents and take preventive actions.
-Analyze log data to identify potential threats.
-Use SIEM tools to automate threat detection.
-Manage the Incident Response (IR) process.
-SOC teams are commonly used by large enterprises, financial institutions, government agencies, and tech companies.
+Cybersecurity threats are growing in complexity, making **Security Operations Centers (SOCs)** essential for protecting organizations. This article explores what a SOC is and what SOC Analysts do.
 
-2. Who is a SOC Analyst? What Do They Do?
-SOC analysts are security experts who continuously monitor networks and systems to identify threats. SOC teams typically have three levels:
+---
 
-1️⃣ Tier 1 – Junior SOC Analyst (Entry-Level)
+## 🛡️ 1. What is a Security Operations Center (SOC)?
 
-Uses SIEM tools to detect security threats.
-Analyzes logs and identifies suspicious activities.
-Escalates incidents to Tier 2 or Tier 3 teams.
-2️⃣ Tier 2 – Incident Responder (Mid-Level)
+A **Security Operations Center (SOC)** is a centralized unit that **monitors, detects, and responds to cybersecurity threats 24/7**.
 
-Analyzes and mitigates security threats.
-Manages the Incident Response process.
-3️⃣ Tier 3 – Threat Hunter (Advanced Level)
+### 🔍 Key Objectives of a SOC
+- Detect and analyze cyber threats.
+- Investigate security incidents and take preventive actions.
+- Analyze log data to identify potential threats.
+- Use **SIEM** tools to automate threat detection.
+- Manage the **Incident Response (IR)** process.
 
-Performs proactive threat hunting.
-Develops custom SIEM rules and detection algorithms.
-Conclusion
-SOC Analysts play a crucial role in cybersecurity. If you want to start a career in this field, learning SIEM tools, log analysis, and incident response is a great first step.
+SOC teams are commonly used by:
+- Large enterprises
+- Financial institutions
+- Government agencies
+- Tech companies
 
-In the next post, we will dive deeper into SIEM and log analysis. 🚀
+---
+
+## 👨‍💻 2. Who is a SOC Analyst? What Do They Do?
+
+**SOC Analysts** are cybersecurity professionals who monitor systems and networks to detect suspicious activity. SOC teams are usually divided into three levels:
+
+### 1️⃣ Tier 1 – Junior SOC Analyst *(Entry-Level)*
+- Uses SIEM tools to detect threats.
+- Analyzes logs for suspicious activities.
+- Escalates issues to Tier 2 or Tier 3.
+
+### 2️⃣ Tier 2 – Incident Responder *(Mid-Level)*
+- Investigates and mitigates threats.
+- Manages the Incident Response lifecycle.
+
+### 3️⃣ Tier 3 – Threat Hunter *(Advanced Level)*
+- Performs proactive **threat hunting**.
+- Develops custom SIEM detection rules.
+- Analyzes attacker tactics and techniques (e.g., using MITRE ATT&CK).
+
+---
+
+## 🚀 Conclusion
+
+SOC Analysts play a **critical role in defending digital infrastructure**. Learning about **SIEM tools, log analysis, and incident response** is essential to building a successful career in cybersecurity.
+
+In the next post, we will dive deeper into **SIEM and log analysis** — two core skills for every SOC Analyst.
