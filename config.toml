@@ -84,9 +84,9 @@ name = "Archives"
 url = "archives"
 weight = 8
 
-
-googleAnalytics = "G-J530VWHL4Q"
-
+[services]
+[services.googleAnalytics]
+id = 'G-J530VWHL4Q'
 
 [params.social]
 twitter = "InsistOrion"
