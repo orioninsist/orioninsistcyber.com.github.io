@@ -12,6 +12,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url><url>
+    <loc>//localhost:1313/blog/what-is-a-soc-role-and-responsibilities-of-a-soc-analyst/</loc>
+    <lastmod>2025-03-22T00:45:41+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
     <loc>//localhost:1313/blog/2025/03/cybersecurity-documentation/</loc>
     <lastmod>2025-03-06T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -23,10 +28,10 @@
     <priority>0.8</priority>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
-    <lastmod>2025-03-19T12:00:00+03:00</lastmod>
+    <lastmod>2025-03-22T00:45:41+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-03-19T12:00:00+03:00</lastmod>
+    <lastmod>2025-03-22T00:45:41+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2025/03/what-is-soc-security-operations-center/</loc>
     <lastmod>2025-03-19T12:00:00+03:00</lastmod>
